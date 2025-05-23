@@ -209,6 +209,10 @@ enum opcodetype
     // Opcode added by BIP 342 (Tapscript)
     OP_CHECKSIGADD = 0xba,
 
+    // EBC: Post-quantum signature verification
+    OP_PQCHECKSIG = 0xbb,
+    OP_PQCHECKSIGVERIFY = 0xbc,
+
     OP_INVALIDOPCODE = 0xff,
 };
 

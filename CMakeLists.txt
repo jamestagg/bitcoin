@@ -132,6 +132,16 @@ endif()
 
 option(ENABLE_EXTERNAL_SIGNER "Enable external signer support." ON)
 
+option(ENABLE_EBC "Enable Emergency Bitcoin Cut-Over Chain support." OFF)
+if(ENABLE_EBC)
+  if(VCPKG_TARGET_TRIPLET)
+    find_package(liboqs CONFIG REQUIRED)
+  else()
+    find_package(PkgConfig REQUIRED)
+    pkg_check_modules(LIBOQS REQUIRED liboqs)
+  endif()
+endif()
+
 cmake_dependent_option(WITH_QRENCODE "Enable QR code support." ON "BUILD_GUI" OFF)
 if(WITH_QRENCODE)
   find_package(QRencode MODULE REQUIRED)
