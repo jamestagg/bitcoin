@@ -1,6 +1,6 @@
-// Copyright (c) 2025 The Bitcoin Core developers
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// Copyright (c) 2025 Valis Labs
+// Licensed under BSL1.1 License. See LICENSE-COMMERCIAL for details.
+// Original Bitcoin Core code licensed under MIT. See LICENSE-MIT.
 
 #include <crypto/pq/pq_keys.h>
 #include <logging.h>

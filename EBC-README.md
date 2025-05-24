@@ -1,3 +1,9 @@
+<!--
+Copyright (c) 2025 Valis Labs
+Licensed under BSL1.1 License. See LICENSE-COMMERCIAL for details.
+Original Bitcoin Core code licensed under MIT. See LICENSE-MIT.
+-->
+
 # Emergency Bitcoin Cut-Over Chain (EBC) Implementation
 
 This document describes the implementation of the Emergency Bitcoin Cut-Over Chain (EBC), a quantum-safe backup network for Bitcoin as specified in the [EBC whitepaper](ebc-whitepaper-v1.md).
