@@ -1,6 +1,5 @@
 // Copyright (c) 2025 Valis Labs
 // Licensed under BSL1.1 License. See LICENSE-COMMERCIAL for details.
-// Original Bitcoin Core code licensed under MIT. See LICENSE-MIT.
 
 #ifndef BITCOIN_SCRIPT_PQ_INTERPRETER_H
 #define BITCOIN_SCRIPT_PQ_INTERPRETER_H
