@@ -1,0 +1,29 @@
+## Licensing
+
+This project contains code under two different licenses:
+
+### Original Code (Bitcoin Core Fork)
+The original Bitcoin Core code and subsequent modifications by [original authors] 
+are licensed under the MIT License. See `LICENSE-MIT` for details.
+
+### Our Modifications (Emergency Bitcoin Cut-Over Chain)
+All modifications and additions made by [Your Name/Company] starting from [date] 
+are licensed under [Your Chosen License]. See `LICENSE-COMMERCIAL` for details.
+
+### How to Distinguish
+- Files in the original Bitcoin Core structure: MIT License
+- New files in `/ebc/*`: BSL1.1 License
+- Modified files: Original portions under MIT, modifications under BSL1.1 License
+
+Copyright (c) 2009-2025 Bitcoin Core Developers (MIT License)
+Copyright (c) 2025 Valis Labs Inc. (BSL1.1 License)
+
+Copyright (c) 2025 Valis Labs
+
+Licensed under the Business Source License 1.1 (the "BSL1.1 License");
+you may not use this file except in compliance with the License.
+
+Change Date: 2 years from cut-over event
+Change License: MIT License
+
+For commercial licensing, contact: licensing@valislabs.com
