@@ -1,9 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-present The Bitcoin Core developers
-// Copyright (c) 2025 Valis Labs (EBC modifications)
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-// EBC modifications licensed under BSL1.1. See LICENSE-COMMERCIAL for details.
+// Copyright (c) 2009-2025 Bitcoin Core Developers (MIT License)
+// Copyright (c) 2025 Valis Labs (Commercial License for modifications)
+// See LICENSE-MIT and LICENSE-COMMERCIAL for details.
 
 #ifndef BITCOIN_SCRIPT_SCRIPT_H
 #define BITCOIN_SCRIPT_SCRIPT_H
